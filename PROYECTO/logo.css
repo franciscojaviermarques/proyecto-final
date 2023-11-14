@@ -1,0 +1,210 @@
+
+ /* TOP */
+
+#logo-img {
+    width: 200px; 
+    height: auto; 
+}
+
+.top {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+    background-color: black; 
+    padding: 10px; 
+}
+
+
+
+.logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.nav-links {
+    display: flex; 
+    margin-left: 50px; 
+    font-size: larger;
+    
+}
+
+.nav-link a {
+    color: white; 
+}
+
+
+
+.nav-link {
+    margin-right: 10px; 
+    color: white;
+}
+
+.nav-link.dropdown {
+    position: relative;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.nav-link.dropdown a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 30px;
+    font-size: 24px;
+    color: gray;
+}
+
+
+.create-button {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 1555px; 
+}
+
+.search-icon {
+    font-size: 24px; 
+    color: white;
+    margin: 0 10px; 
+    position: absolute;
+    top: 30px;
+    left: 1650px;
+}
+
+
+.login-button {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 1700px; 
+}
+
+
+.signup-button {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute; 
+    top: 30px; 
+    right: 10px;
+}
+
+    .explore-text {
+        color: yellow; 
+        font-size: 14px; 
+        position: absolute;
+        top: 25px; 
+        left: 268px; 
+        font-size: 15px;
+    }
+    
+    /* CENTRO */
+
+    
+    .centro {
+        background-color: grey;
+        color: white;
+        font-size: 40px;
+        padding-top: 80px; 
+        max-width: 100%; 
+        margin: 0 auto;
+    
+    }
+    
+    
+    .centro1 {
+        background-color: grey; 
+        color: white;
+        font-size: 40px;
+    }
+    
+    .centro1 p:nth-child(-n+3) {
+        font-size: 50px; 
+    }
+    
+    
+    .centro2 {
+        background-color: grey; 
+        color: white;
+        font-size: 40px;
+        left: 1575px;
+    }
+    
+    .signup-button-green, .learn-more-button {
+            background-color: green; 
+            color: black; 
+            padding: 40px 70px; 
+            border: none;
+            cursor: pointer;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            FONT-SIZE: 25px;
+        }
+        
+     .learn-more-button {
+            background-color: black;
+            margin-left: 10px; 
+            color: white;
+        }
+        
+        .imagen-centro {
+            float: right; 
+            margin-top: -700px; 
+            margin-left: 80px; 
+            width: 1150px; 
+            height: 900px;
+        }
+   
+
+        .codepen-paragraph {
+            font-size: 30px; 
+            margin-top: -650px;
+            margin-left: 750px;
+            width: 600px; 
+            height: 700px; 
+        }
+   
+     
+/* BOTTOM */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0px;
+          }
+        
+          .grid-item {
+            background-color: rgb(85, 85, 85);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            border: 1px solid white;
+          }
+        
+          .education-text {
+            font-size: 40px; /* Ajusta el tamaño de fuente según tus necesidades */
+            font-weight: bold;
+        }
+        
